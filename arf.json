@@ -1,0 +1,123 @@
+{
+  "name": "LangChain",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Vendor",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Setup",
+          "type": "stage",
+          "children": [
+            {
+              "name": "Market/Vendor Request",
+              "type": "form"
+            },
+            {
+              "name": "Document Upload",
+              "type": "form"
+            }
+          ]
+        },
+        {
+          "name": "Pre-market day",
+          "type": "stage",
+          "children": [
+            {
+              "name": "Upcoming Market Form",
+              "type": "form"
+            }
+          ]
+        },
+        {
+          "name": "Market day",
+          "type": "stage",
+          "children": [
+            {
+              "name": "Check-in",
+              "type": "form",
+              "description": "screenshot of your wifi/signed etc."
+            },
+            {
+              "name": "Transaction Form",
+              "type": "form"
+            },
+            {
+              "name": "End of Market Invoice",
+              "type": "form"
+            },
+            {
+              "name": "See PGL for Payment/Reconciliation",
+              "type": "note"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PGL",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Training staff & vendors",
+          "type": "note"
+        },
+        {
+          "name": "Pre-market",
+          "type": "stage"
+        },
+        {
+          "name": "Market Day",
+          "type": "stage"
+        },
+        {
+          "name": "Post-Market",
+          "type": "stage",
+          "children": [
+            {
+              "name": "Market Needs Assessment Report",
+              "type": "document"
+            },
+            {
+              "name": "Requesting TFA",
+              "type": "form"
+            },
+            {
+              "name": "Providing Feedback",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Link to MS Form",
+                  "type": "link",
+                  "url": "https://example.com/ms-form"
+                },
+                {
+                  "name": "Link to GRFY w/paper format as backup",
+                  "type": "link",
+                  "url": "https://example.com/grfy"
+                },
+                {
+                  "name": "Recorded videos list",
+                  "type": "document"
+                },
+                {
+                  "name": "Sharing Feedback",
+                  "type": "note"
+                },
+                {
+                  "name": "Original training slide deck",
+                  "type": "document"
+                },
+                {
+                  "name": "Policy documents & checklists generated",
+                  "type": "document"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
